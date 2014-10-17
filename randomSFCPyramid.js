@@ -1,4 +1,4 @@
-var nSFC = function(n){
+var randomSFCPyramid = function(n){
   var message = "";
   var counter = 0;
 
@@ -15,7 +15,7 @@ var n = Math.random() * 100;
 Math.floor(n);
 
 while(counter <= n){
-  output = nSFC(counter);
+  output = randomSFCPyramid(counter);
   console.log(output);
   counter = counter + 1;
 }

@@ -1,4 +1,4 @@
-var nSFC = function(n){
+var sfcPyramid = function(n){
   var message = "";
   var counter = 0;
 
@@ -14,7 +14,7 @@ var counter = 1;
 var n = 5;
 
 while(counter <= n){
-  output = nSFC(counter);
+  output = sfcPyramid(counter);
   console.log(output);
   counter = counter + 1;
 }
